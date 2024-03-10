@@ -90,13 +90,19 @@ a{
 
 
 @media screen and (max-width: 450px) {
+
     #list-items, nav{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
+
+    nav{
+        height: 150px;
+    }
     #list-items{
         padding-left: 30px;
+        line-height: 30px;
     }
 
 }
