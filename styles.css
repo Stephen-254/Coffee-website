@@ -6,7 +6,7 @@
 }
 
 body{
-    /* overflow: hidden;
+     /*overflow: hidden;
     height: 100vh;
     width: 100vw; */
 }
@@ -32,18 +32,20 @@ nav > h1{
 }
 
 li{
-    /* display: flex;
-    justify-content: space-between; */
     list-style-type: none; 
     padding-left: 20px;
     padding-right: 20px;
     text-transform: uppercase;
 }
 
+a{
+    text-decoration: none;
+}
+
 .jumbotron{
     position: relative;
     height: calc(100vh - 100px);
-    width: 100%;
+    max-width: 100%;
 }
 
 .jumbotron img{
@@ -57,7 +59,6 @@ li{
     position: absolute;
     top: 30%;
     left: 60%;
-    
 }
 
 .jumbotron .intro .intro1{
@@ -87,9 +88,7 @@ li{
 
 }
 
-a{
-    text-decoration: none;
-}
+
 @media screen and (max-width: 450px) {
     #list-items, nav{
         display: flex;
