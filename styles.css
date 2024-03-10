@@ -41,9 +41,6 @@ li{
 a{
     text-decoration: none;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 600px) {
-=======
 
 .jumbotron{
     position: relative;
@@ -93,7 +90,7 @@ a{
 
 
 @media screen and (max-width: 450px) {
->>>>>>> main
+
     #list-items, nav{
         display: flex;
         flex-direction: column;
