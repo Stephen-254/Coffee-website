@@ -107,3 +107,21 @@ a{
     }
 
 }
+
+#menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    place-items: center;
+}
+
+.card-one{
+    grid-column-start: 2;
+}
