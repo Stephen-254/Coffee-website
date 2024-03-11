@@ -113,6 +113,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 100px;
 }
 
 .container{
@@ -120,8 +121,17 @@ a{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
     place-items: center;
+    row-gap: 50px;
+    column-gap: 100px;
 }
 
 .card-one{
     grid-column-start: 2;
 }
+
+.buy{
+    height: 50px;
+    width: 100px;
+    color: black;
+}
+
